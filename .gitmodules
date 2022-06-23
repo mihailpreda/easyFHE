@@ -1,9 +1,0 @@
-[submodule "fhe-module-quasar-demo"]
-	path = fhe-module-quasar-demo
-	url = git@github.com:mihailpreda/fhe-module-quasar-demo.git
-[submodule "fhe-module-typescript-wrapper"]
-	path = fhe-module-typescript-wrapper
-	url = git@github.com:mihailpreda/fhe-module-typescript-wrapper.git
-[submodule "fhe-module-wasm"]
-	path = fhe-module-wasm
-	url = git@github.com:mihailpreda/fhe-module-wasm.git
