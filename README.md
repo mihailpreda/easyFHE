@@ -45,7 +45,8 @@ cp -r dist/ ../
 6. Commit changes
 
 ```
-git add dist && git commit -m 'adding dist subtree'
+cd ..
+git add dist && git commit -m 'updated demo'
 ```
 
 7. Recreate gh-pages branch
