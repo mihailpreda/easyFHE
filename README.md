@@ -54,3 +54,21 @@ git add dist && git commit -m 'updated demo'
 ```
 git subtree push --prefix dist/spa origin gh-pages
 ```
+
+## All commands
+
+### (must be in easyFHE root directory)
+
+```
+rm -rf dist/
+git branch -d gh-pages
+git push origin --delete gh-pages
+cd fhe-module-quasar-demo/
+rm -rf dist/
+quasar build
+cp -r dist/ ../
+cd ..
+git add dist && git commit -m 'updated demo'
+git subtree push --prefix dist/spa origin gh-pages
+
+```
