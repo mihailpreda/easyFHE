@@ -60,6 +60,7 @@ git subtree push --prefix dist/spa origin gh-pages
 ### (must be in easyFHE root directory)
 
 ```
+
 rm -rf dist/
 git branch -d gh-pages
 git push origin --delete gh-pages
@@ -70,5 +71,6 @@ cp -r dist/ ../
 cd ..
 git add dist && git commit -m 'updated demo'
 git subtree push --prefix dist/spa origin gh-pages
+
 
 ```
